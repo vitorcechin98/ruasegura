@@ -1,95 +1,35 @@
-
-
-
 body{
 	background-color: rgb(209,208,193);
 }
 #carouselIndicadores{
-    position: relative;
-	border: 8px solid white;
-	box-shadow: 2px 2px 4px black;
+float: right;
+
+max-width:600px;
+max-height: 480px;
+margin-top: 20px;
 }
 #apresentacao{
-	margin-top: 0px;
+	margin-top: 20px;
 	border: black solid 1px;
-	max-width: relative;
+	max-width: 100%;
 	background-color: rgb(233,242,221);
 	max-height: 500px;
 
 }
 #apresentacao p{
 	font-family: 15px arial !important;
-	text-align: justify-all !important;
 	
 } 
 #apresentacao h2{
 	text-align: center;
 
-figure#foto-leg{
-
-	position: relative;
-	border: 8px solid white;
-	box-shadow: 1px 1px 4px black;
-
 }
-/* estilo foto pagina sobre foto-leg*/
-h3#foto-leg{
-width: 480px;
-height: 33.6px;
-
-}
-figure#foto-leg img{
-  width: 100%
-  height: 100%;
-  padding-left: 20px;
-
-}
-figure#foto-leg figcaption{
-	opacity: 0;
-	position: relative;
-	top: 0px;
-	background-color: rgba(0,0,0,0.4);
-	color: white;
-	width: 100%;
-	height:100%;
-	box-sizing: border-box;
-	transition: opacity 1.5s;
-
-}
-figure#foto-leg:hover figcaption{
-	opacity: 1;
-}
-
-/* estilo foto pagina sobre foto-leg1*/
-h3#foto-leg1{
-width: 480px;
-height: 33.6px;
-
-}
-figure#foto-leg1 figcaption{
-
-	position: absolute ;
-	top: 30px;
-	left: 400px ;
-	opacity: 0;
-	position: absolute;
-	top: 0px;
-	left: 55%;
-	background-color: rgba(0,0,0,0.4);
-	color: white;
-	width: 100%;
-	height:100%;
+#rodape footer{
+	color:#0a93a6; 
+	text-decoration:none;
 	
-	box-sizing: border-box;
-	transition: opacity 1.5s;
+	background-color: #606060;
 }
-figure#foto-leg1 img{
-  width: 100%
-  height: 100%;
-
+#rodape footer p{
+	text-align: center;
 }
-figure#foto-leg1 hover figcaption{
-	opacity: 1;
-}
-
-

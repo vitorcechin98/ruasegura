@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Não entre para a estatística!</title>
+
+
+    <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="boostrap/css/estilo.css">
+    <link rel="stylesheet" href="boostrap/css/bootstrap.css">
+    <script src="jquery/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        jQuery(function () {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 20) {
+                    $("#menu1").addClass("menu-diferente");
+                } else {
+                    $("#menu1").removeClass("menu-diferente");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark"id="menu1">
+    <a class="navbar-brand" href="index.html">Rua Segura</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="denunciar.html">Denuncia rápida</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Opções
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="denunciar.html">Abrir denuncia</a>
+                    <a class="dropdown-item" href="#">Editar denuncia</a>
+                    <a class="dropdown-item" href="#">Estatisticas</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="fotoInicial">
+<img  class="d-block w-100" src="imagens/como-evitar-o-roubo-de-celulares%20(2).jpg">
+</div>
+
+<div id="apresentacao">
+    <h2>O Rua Segura</h2>
+    <p1>Este Site foi desenvolvido pelos alunos da Fadergs no segundo semestre do ano de 2018 com o intuito
+    de auxiliar as pessoas que caminham pelo centro de Porto Alegre.</p1><br>
+    <p2>Diariamente pessoas sofrem roubos e furtos no centro, então pensamos em localizar quais ruas ocorrem
+    com mais freguencia, o usuário poderá fazer uma ocorrencia, informando qual rua sofreu o ataque, e então com essas informações,
+    faremos um ranking de perigo, afim de que as pessoas possam evitar essas ruas.</p2>
+</div>
+
+<div class="icones">
+    <a class="btn btn-outline-primary" id="btn1" href="denunciar.html">
+        <img src="imagens/resume%20(1).png"><br>
+        <p>Abrir Denuncia</p>
+    </a>
+    <a class="btn btn-outline-primary" id="btn2" href="estatiscas.html">
+        <img src="imagens/graph.png"><br>
+        <p>Estatísticas</p>
+    </a>
+    <a class="btn btn-outline-primary"id="btn3" target="_blank" href="http://www.facebook.com/sharer.php?u=https://alemaowill.github.io/ruasegura">
+        <img src="imagens/facebook.png"><br>
+        <p>Compartilhe!</p>
+    </a>
+<br><br><br><br><br><br><br><br><br>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+<footer id="rodape">
+        <p>© 2017, All rights reserved 2016-2017.</p>
+    </footer>
+</html>
+
